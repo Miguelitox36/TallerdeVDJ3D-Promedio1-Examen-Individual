@@ -123,7 +123,7 @@ namespace TallerVDJ3D_Promedio1_Examen_Individual
                     int itemIndex = int.Parse(Console.ReadLine()) - 1;
                     player.UseItem(player.Items[itemIndex]);
                 }
-                PlayerTurn(); // volver al turno para forzar ataque
+                PlayerTurn(); 
             }
             else if (choice == 2)
             {
